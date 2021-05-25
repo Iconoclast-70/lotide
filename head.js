@@ -8,11 +8,11 @@ const assertEqual = function(actual, expected) {
 
 const head = function(hArray) {
   if (hArray.length > 0) {
-    return hArray.shift()
+    return hArray.shift();
   } else {
     return hArray;
   }
-}
+};
 
 assertEqual(head([3,4]), 4);
 assertEqual(head(["Goodbye","Hello"]), "Hello");
