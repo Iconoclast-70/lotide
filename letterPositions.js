@@ -40,3 +40,5 @@ assertArraysEqual(letterPositions("accept").p,[4]);
 assertArraysEqual(letterPositions("accept").t,[5]);
 
 assertArraysEqual(letterPositions("hello").e, [1]);
+
+module.exports = letterPositions;

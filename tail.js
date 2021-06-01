@@ -1,3 +1,5 @@
+const assertEqual = require('./assertEqual');
+
 const tail = function(tArray) {
   if (tArray.length > 0) {
     let vTail = tArray.slice(1);

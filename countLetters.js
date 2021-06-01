@@ -10,4 +10,7 @@ const countLetters = function(sentence) {
   return letters;
 };
 
+
 console.log(countLetters("ACCEPT"));
+
+module.exports = countLetters;
